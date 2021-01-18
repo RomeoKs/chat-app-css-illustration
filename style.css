@@ -42,7 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+main {
+    flex-grow: 1;
+}
 
 /* ||  GENERAL STYLES*/
 
@@ -133,7 +135,7 @@ h1 {
     color: #D99EFF;
 }
 .message_1, .message_2, .message_5 {
-    width: 128px;
+    width: 112px;
     font-size: 8px;
     line-height: 11px;
     color: #9341C8;
@@ -153,7 +155,6 @@ h1 {
     margin-top: 16px;
 }
 .message_3, .message_4 {
-    width: 128px;
     font-size: 8px;
     line-height: 11px;
     color: #6E5D7E;
@@ -165,8 +166,11 @@ h1 {
     margin-left: auto;
     margin-bottom: 8px;
 }
+.message_3 {
+    width: 115px;
+}
 .message_4 {
-    width: 80px;
+    width: 70px;
 }
 .dog {
     width: 40px;
@@ -178,7 +182,6 @@ h1 {
 .dog_pics {
     display: flex;
     justify-content: flex-end;
-    margin-right: 7.5px;
     margin-bottom: 8px;
 }
 .fare {
@@ -218,10 +221,11 @@ h1 {
     margin-left: 50px;
 }
 .usd_29, .usd_49 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 11px;
-    padding-top: 2px;
+    padding-top: 11px;
+    color: white;
 }
 .chat {
     width: 213px;
