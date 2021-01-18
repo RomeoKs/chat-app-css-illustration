@@ -197,7 +197,7 @@ h1 {
 .circle {
     width: 12px;
     height: 12px;
-    border: 1px solid white;
+    border: 1px solid #E472FF;
     border-radius: 50%;
     margin-left: 8px;
     margin-top: 10px;
@@ -267,7 +267,7 @@ footer {
     background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
     border-radius: 255px;
     left: -90px;
-    top: -42%;
+    top: -39%;
     position: absolute;
     z-index: -1;
 }
