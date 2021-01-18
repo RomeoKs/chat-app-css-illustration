@@ -267,7 +267,7 @@ footer {
     background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
     border-radius: 255px;
     left: -90px;
-    top: -45%;
+    top: -42%;
     position: absolute;
     z-index: -1;
 }
@@ -288,7 +288,7 @@ footer {
     max-width: 817px;
     max-height: 505px;
     margin: auto;
-    transform: translate(52px, 147px);
+    transform: translate(51px, 147px);
     display: flex;
 }
 .phone_mock-up {
